@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-27T06:27:15.110Z",
+  "browser": "153.0.8010.12",
+  "mode": "Actual public RPC requests from Chromium; disconnected wallet; no broadcast",
+  "console": [],
+  "requests": [],
+  "contrast": [
+    {
+      "selector": ".lede",
+      "foreground": "rgb(98, 102, 91)",
+      "background": "rgb(245, 244, 238)",
+      "fontSize": "16px",
+      "ratio": 5.34
+    },
+    {
+      "selector": ".streak-caption",
+      "foreground": "rgb(194, 203, 184)",
+      "background": "rgb(36, 43, 35)",
+      "fontSize": "12px",
+      "ratio": 8.67
+    },
+    {
+      "selector": ".fees strong",
+      "foreground": "rgb(242, 243, 231)",
+      "background": "rgb(36, 43, 35)",
+      "fontSize": "40px",
+      "ratio": 12.98
+    },
+    {
+      "selector": ".router-note",
+      "foreground": "rgb(98, 102, 91)",
+      "background": "rgb(255, 254, 249)",
+      "fontSize": "12px",
+      "ratio": 5.82
+    },
+    {
+      "selector": ".donation-card > p:not(.fine)",
+      "foreground": "rgb(98, 102, 91)",
+      "background": "rgb(238, 238, 228)",
+      "fontSize": "15px",
+      "ratio": 5.04
+    },
+    {
+      "selector": ".primary",
+      "foreground": "rgb(106, 111, 98)",
+      "background": "rgb(228, 234, 216)",
+      "fontSize": "16px",
+      "ratio": 4.2
+    },
+    {
+      "selector": ".network-tag",
+      "foreground": "rgb(98, 102, 91)",
+      "background": "rgb(245, 244, 238)",
+      "fontSize": "13px",
+      "ratio": 5.34
+    }
+  ],
+  "liveRead": "passed",
+  "text": "AN EXPERIMENT IN MARKET RHYTHM\n\nEvery swap\nchanges the rhythm.\n\nFollow the streak. See your next fee.\nMove with Momentum.\n\n↗↗↘\n\nETH / MOMO\n\nUniswap v4 · 0.3% LP fee\nCurrent streak\nLive pool\n0\nNo direction yet\n\nqualifying swaps in a row\n\n↗\nEach qualifying swap adds 0.10%\n2.00% cap\nNext buy fee ↗\n0.30%\nETH → MOMO\nNext sell fee ↘\n0.30%\nMOMO → ETH\n\nHook fees come off swap output. The pool also charges its 0.3% LP fee.\n\nMake your move\nSwap\nBuy MOMO\n↗\nSell MOMO\n↘\nYou pay, up to\nETH\nConnect to see your balance\n↓\nEstimated receive\n—\nMOMO\nGet a quote to preview your swap\nCurrent pool price\n1 ETH ≈ 50,000,000 MOMO\nNext hook fee\n0.30%\nMax pool price movement\n0.5%\n1.0%\n2.0%\n5.0%\n\nPoolSwapTest enforces a pool price limit, not a minimum received amount or deadline. Swaps can partially fill; hook fees can change before execution.\n\nGet quote\n↗\n\nConnect your wallet above to start. Testnet assets only.\n\nBACK TO THE POOL\n\nPut accrued fees to work.\n↺\n\nAnyone can return the hook’s accrued fees to active liquidity providers. You only pay network gas.\n\n0 ETH\n0 MOMO\nDonate accrued fees\n↗\n\nConnect your wallet to donate.\n\nONCHAIN ACTIVITY\n\nMomentum history\nRefresh\n↻\n\nLatest 20 events in blocks 11791322–11791532. Dust swaps appear here but do not advance the streak.\n\n↗ ↘\nNo swaps in this window.\n\nThe next swap will leave its mark here. Refresh to check again.\n\nTHE RHYTHM, EXPLAINED\n\nA streak has a price.\n\nA swap with at least 0.001 ETH on its pool delta advances the streak. The next swap in that direction pays 0.10% more, from a 0.30% base up to 2.00%.\n\nA qualifying swap in the opposite direction starts a new streak. Smaller swaps pay the directional fee but leave the streak unchanged. Resetting with a counter-swap costs two hook fees plus LP fees for the round trip.\n\nView contracts and deployment",
+  "noMobileOverflow": true
+}

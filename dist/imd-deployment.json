@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "launchId": "a6a76768-571d-43cd-9391-710ba12a3380",
+  "chainId": 11155111,
+  "sourceCommit": "0332a5e33d84dc25d8a762efe1db06ded58dcb4f",
+  "attestationHash": "b09caf64938d7e2c38e781b27232bd9295d1e1d4e903c374f52fb2dc3257dd9c",
+  "contracts": [
+    {
+      "name": "Momentum",
+      "address": "0xf850bc356ea61a7623f2b5620648e51c9b4908a4",
+      "abiHash": "f36d2fe28b62f817a4fba0b78bb501b41895eada3982280273c063ad8183f577",
+      "abiPath": "abi/Momentum.json"
+    },
+    {
+      "name": "MomentumFeeHook",
+      "address": "0x2b75996f5bcda57ea5a875cb798b83cbf89b4044",
+      "abiHash": "d4dc89f06ddda0c0eee52e29239d983e5b687fc8f09728d721632489b221f4b3",
+      "abiPath": "abi/MomentumFeeHook.json"
+    }
+  ],
+  "assets": [
+    {
+      "path": "abi/Momentum.json",
+      "sha256": "c0dab602694964041a5c7124536ce5fe6c9d1d057c2f202b73f659a1e1adb554"
+    },
+    {
+      "path": "abi/MomentumFeeHook.json",
+      "sha256": "7d3e0662760fee14d20e465a84c5b7d439e0cea64437c8844afacf3e04f922a4"
+    },
+    {
+      "path": "abi/PoolSwapTest.json",
+      "sha256": "a34c91e17af1246887cef951470e0ec10dbc9411dd097142839114cc7c138812"
+    },
+    {
+      "path": "abi/StateView.json",
+      "sha256": "8a741e973ad017eaa69755db077cca762b055e3b45c834b7340f09caff3e6e0e"
+    },
+    {
+      "path": "abi/V4Quoter.json",
+      "sha256": "7f7fc4ea986a47c4fa51210389fe1d8799df5c506433644676d1b34e29256653"
+    },
+    {
+      "path": "assets/ccip-DhHJ9uuq.js",
+      "sha256": "61a3e6c31b1f25e87ed720868e18644ce102eca52221fea5789f2622454b5ad1"
+    },
+    {
+      "path": "assets/index-CfLbUpcF.css",
+      "sha256": "51a389a3feaf1a3ee01e7cb363dc5977e1241e7748db62eadd8daaee01a415ba"
+    },
+    {
+      "path": "assets/index-DHthEA7M.js",
+      "sha256": "0b008d540e9bbc9b15a9741cfca2362d754df0cbd5ea8b107e69a0ed2b4baa11"
+    },
+    {
+      "path": "index.html",
+      "sha256": "6e1a78257dce0aef4bbe77625fda8e1da978d627abbf208b0e678948b0926ee2"
+    }
+  ],
+  "network": {
+    "chainId": 11155111,
+    "name": "Sepolia",
+    "testnet": true,
+    "rpcUrls": [
+      "https://ethereum-sepolia-rpc.publicnode.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.rpc.sentio.xyz"
+    ],
+    "explorer": "https://sepolia.etherscan.io",
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "faucets": [
+      "https://cloud.google.com/application/web3/faucet/ethereum/sepolia",
+      "https://www.alchemy.com/faucets/ethereum-sepolia"
+    ],
+    "uniswapV4": {
+      "poolManager": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+      "universalRouter": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+      "quoter": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+      "stateView": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+      "positionManager": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+      "permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3"
+    }
+  },
+  "walletAddChain": {
+    "chainId": "0xaa36a7",
+    "chainName": "Sepolia",
+    "rpcUrls": [
+      "https://ethereum-sepolia-rpc.publicnode.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.rpc.sentio.xyz"
+    ],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": [
+      "https://sepolia.etherscan.io"
+    ]
+  },
+  "pool": {
+    "fee": 3000,
+    "tickSpacing": 60,
+    "initialPrice": "2506541289228028214046281103513",
+    "pairedCurrency": "0x0000000000000000000000000000000000000000"
+  },
+  "token": {
+    "name": "Momentum",
+    "symbol": "MOMO",
+    "contract": "Momentum",
+    "decimals": 18
+  },
+  "deploymentBlock": 11791322,
+  "routing": {
+    "kind": "PoolSwapTest",
+    "poolSwapTest": "0x9B6b46e2c869aa39918Db7f52f5557FE577B6eEe",
+    "source": "Approved workflow: PoolSwapTest route; approvals go directly to this router."
+  },
+  "protocolAbis": {
+    "PoolSwapTest": {
+      "path": "abi/PoolSwapTest.json",
+      "abiHash": "9689c2562c63b84baea13c5d96a175e0f6abc4e1ae85f15696f959fbe4d322d3"
+    },
+    "StateView": {
+      "path": "abi/StateView.json",
+      "abiHash": "e64088589fb06f7b9f4fefd77f1f4db3d0340ac4f0d7d6e15b1ec9504a487c56"
+    },
+    "V4Quoter": {
+      "path": "abi/V4Quoter.json",
+      "abiHash": "f459ca22bede86d490ce9ad2e24c6b0e14604ba706ec2e1216d11298180de2b1"
+    }
+  }
+}

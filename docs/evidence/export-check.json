@@ -1,0 +1,19 @@
+{
+  "assets": 9,
+  "exportBytes": 666593,
+  "largestAssetBytes": 609183,
+  "handoffMatches": true,
+  "networkUnchanged": true,
+  "sha256InventoryMatches": true,
+  "sizes": {
+    "index.html": 990,
+    "assets/index-CfLbUpcF.css": 14037,
+    "assets/ccip-DhHJ9uuq.js": 2888,
+    "assets/index-DHthEA7M.js": 609183,
+    "abi/StateView.json": 761,
+    "abi/V4Quoter.json": 1297,
+    "abi/PoolSwapTest.json": 1627,
+    "abi/Momentum.json": 5945,
+    "abi/MomentumFeeHook.json": 25518
+  }
+}

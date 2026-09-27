@@ -1,0 +1,76 @@
+{
+  "checkedAt": "2026-09-27T06:20:19.498Z",
+  "rpcUrl": "https://ethereum-sepolia-rpc.publicnode.com",
+  "mode": "Read-only RPC calls and eth_call simulations; no transaction broadcast",
+  "results": {
+    "chainId": 11155111,
+    "blockNumber": "11791497",
+    "code": [
+      {
+        "name": "Momentum",
+        "address": "0xf850bc356ea61a7623f2b5620648e51c9b4908a4",
+        "bytes": 1752,
+        "codeKeccak": "0x6850b3b5f6981e0e05c9be6b752070e4ec541abf21ae8899879f28fe895b69c9"
+      },
+      {
+        "name": "MomentumFeeHook",
+        "address": "0x2b75996f5bcda57ea5a875cb798b83cbf89b4044",
+        "bytes": 6949,
+        "codeKeccak": "0x19ee81d9ee604a4697acf832c60d88cdac77e99e4e91c7529a0ec5a1c4351518"
+      },
+      {
+        "name": "poolManager",
+        "address": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+        "bytes": 24009,
+        "codeKeccak": "0x09930125a49f5b95caf8052991cc14d1240dca8b43f42b899115b86867e4bce1"
+      },
+      {
+        "name": "stateView",
+        "address": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+        "bytes": 3531,
+        "codeKeccak": "0xaaed3db8eb8ebde8014ce4c8a3938496687f4c6374e17a7d735288f6c65ceb9e"
+      },
+      {
+        "name": "quoter",
+        "address": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+        "bytes": 5820,
+        "codeKeccak": "0xf481a751ac453d40c46d12360b85b05472028c1b113ab63749d69a5f8b0e47d1"
+      },
+      {
+        "name": "PoolSwapTest",
+        "address": "0x9B6b46e2c869aa39918Db7f52f5557FE577B6eEe",
+        "bytes": 6950,
+        "codeKeccak": "0xf8a61d4430eff587aa3c2fea734e3a5e54125a7e516fe1734b2c3c5f0cf1ac39"
+      }
+    ],
+    "poolId": "0xb8c64447916f1e3eaa9d8b884594eeb23b9418213385568f7091b4afb3fa048f",
+    "routerManager": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543",
+    "hookManager": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543",
+    "decimals": 18,
+    "streak": [
+      false,
+      "0"
+    ],
+    "buyFee": "30",
+    "sellFee": "30",
+    "accrued": [
+      "0",
+      "0"
+    ],
+    "slot0": [
+      "560227709747861399187319382274582",
+      177284,
+      0,
+      3000
+    ],
+    "liquidity": "0",
+    "buyQuote": {
+      "inputWei": "3000000000000000",
+      "output": [
+        "148416198032788573006184",
+        "168786"
+      ]
+    }
+  },
+  "status": "read checks passed"
+}

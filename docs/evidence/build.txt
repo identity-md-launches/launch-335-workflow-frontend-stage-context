@@ -1,0 +1,16 @@
+Command: npm --prefix web run build
+Exit: 0
+✓ 980 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/index.html                   0.99 kB │ gzip:   0.59 kB
+../dist/assets/index-CfLbUpcF.css   14.04 kB │ gzip:   3.75 kB
+../dist/assets/ccip-DhHJ9uuq.js      2.89 kB │ gzip:   1.33 kB
+../dist/assets/index-DHthEA7M.js   609.18 kB │ gzip: 186.97 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 4.55s
+Exported handoff, canonical ABI hashes and 9 asset hashes.

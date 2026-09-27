@@ -1,0 +1,14 @@
+{
+  "commitStatus": "blocked: .git/index.lock cannot be created on read-only filesystem",
+  "modifiedExistingTrackedFiles": [],
+  "permittedProposedFileCount": 44,
+  "proposedBytesBeforeThisReport": 1947369,
+  "existingHistoryBundleBytes": 209586,
+  "conservativeMetadataAllowanceBytes": 1048576,
+  "conservativeSubmissionUpperBoundBytes": 3205531,
+  "limitBytes": 8388608,
+  "withinBudget": true,
+  "noSubmodules": true,
+  "excludedDependencyDirectories": true,
+  "protectedFilesUnchanged": true
+}

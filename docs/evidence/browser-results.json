@@ -1,0 +1,137 @@
+{
+  "date": "2026-09-27T06:27:47.057Z",
+  "browser": "153.0.8010.12",
+  "mode": "Production export at /preview/; wallet and RPC responses mocked, no broadcast",
+  "tests": [
+    {
+      "name": "Disconnected state shows live metrics and gates transaction controls",
+      "status": "passed"
+    },
+    {
+      "name": "Wallet connects and enables quoting",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid amount is announced and focused",
+      "status": "passed"
+    },
+    {
+      "name": "Buy quote uses attested quoter and PoolSwapTest simulation with price limit",
+      "status": "passed"
+    },
+    {
+      "name": "Quote expires and requires a fresh preview",
+      "status": "passed"
+    },
+    {
+      "name": "Editing amount invalidates quote and confirmation",
+      "status": "passed"
+    },
+    {
+      "name": "Successful mocked buy sends native value, waits for receipt and refreshes",
+      "status": "passed"
+    },
+    {
+      "name": "Sell approval is exact and goes directly to workflow PoolSwapTest",
+      "status": "passed"
+    },
+    {
+      "name": "Sell simulation and transaction use negative exact input and zero native value",
+      "status": "passed"
+    },
+    {
+      "name": "Donation uses hook donateFees and refreshes accrued balances",
+      "status": "passed"
+    },
+    {
+      "name": "Simulation failure is recoverable and never sends a transaction",
+      "status": "passed"
+    },
+    {
+      "name": "Wallet rejection leaves form usable",
+      "status": "passed"
+    },
+    {
+      "name": "History covers the bounded window in non-overlapping 500-block chunks",
+      "status": "passed"
+    },
+    {
+      "name": "Unknown chain offers exact wallet_addEthereumChain after 4902, then switches",
+      "status": "passed"
+    },
+    {
+      "name": "Reverted receipt is reported as failure, never success",
+      "status": "passed"
+    },
+    {
+      "name": "Missing wallet has an actionable error",
+      "status": "passed"
+    },
+    {
+      "name": "Zero liquidity disables donation while allowing first-buy quote; empty history is explicit",
+      "status": "passed"
+    },
+    {
+      "name": "RPC failure keeps transaction controls disabled and offers retry",
+      "status": "passed"
+    },
+    {
+      "name": "Tampered implementation ABI blocks app startup",
+      "status": "passed"
+    },
+    {
+      "name": "Missing deployed code fails closed",
+      "status": "passed"
+    },
+    {
+      "name": "Insufficient balance is rejected before quoting or signing",
+      "status": "passed"
+    },
+    {
+      "name": "Keyboard completes buy preview, acceptance and confirmation",
+      "status": "passed"
+    },
+    {
+      "name": "Desktop accessibility scan has no WCAG A/AA violations",
+      "status": "passed"
+    },
+    {
+      "name": "No page overflow at 1440px",
+      "status": "passed"
+    },
+    {
+      "name": "No page overflow at 820px",
+      "status": "passed"
+    },
+    {
+      "name": "No page overflow at 390px",
+      "status": "passed"
+    },
+    {
+      "name": "No page overflow at 320px",
+      "status": "passed"
+    },
+    {
+      "name": "Mobile accessibility scan has no WCAG A/AA violations",
+      "status": "passed"
+    },
+    {
+      "name": "Keyboard focus follows native controls and skip link reaches main",
+      "status": "passed"
+    },
+    {
+      "name": "200% text enlargement has no page overflow",
+      "status": "passed"
+    },
+    {
+      "name": "Reduced motion disables button transitions",
+      "status": "passed"
+    },
+    {
+      "name": "No page script errors or failed local resources",
+      "status": "passed"
+    }
+  ],
+  "consoleErrors": [],
+  "resourceErrors": []
+}
